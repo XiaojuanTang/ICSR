@@ -1,0 +1,37 @@
+Statement: Laura is mother of Felix.
+Answer: To explain the statement "Laura is mother of Felix", we can use Facts:
+Fact F2 states: Laura is parent of Felix.
+Fact F37 states: Laura is female.
+Using F2 and F37, we can conclude that "Laura is mother of Felix" holds.
+Therefore, the selected rule and facts are F2, F37.
+
+Statement: Samuel is brother of Alina.
+Answer: To infer the statement "Samuel is brother of Alina", we have:
+F27: Patrick is parent of Samuel.
+F28: Patrick is parent of Alina.
+F47: Samuel is male.
+Based on these facts, we can infer "Samuel is brother of Alina":
+Therefore, the selected rule and facts are F27, F28, F47.
+
+Statement: Patrick is grandfather of David.
+Answer: To explain the statement "Patrick is grandfather of David", we have:
+F28: Patrick is parent of Alina.
+F7: Alina is parent of David.
+F45: Patrick is male.
+Based on these facts, we can infer "Patrick is grandfather of David":
+Therefore, the selected rule and facts are F28, F7, F45.
+
+Statement: Amelie is daughter of Elena.
+Answer: To explain the statement "Amelie is daughter of Elena", we have:
+F20: Elena is parent of Amelie.
+F43: Amelie is female.
+Based on these facts, we can infer "Amelie is daughter of Elena".
+Therefore, the selected rule and facts are F20, F43.
+
+Statement: Claudia is sister of Felix
+Answer: To prove the statement "Claudia is sister of Felix", we can use facts:
+F3: Laura is parent of Claudia.
+F2: Laura is parent of Felix.
+F40: Claudia is female.
+Based on these facts, we can infer "Claudia is sister of Felix".
+Therefore, the selected rule and facts are F3, F2, F40.

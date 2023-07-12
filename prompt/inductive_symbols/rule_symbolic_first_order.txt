@@ -1,0 +1,28 @@
+r2	$\forall A, B, C: r45(A, B) \land r1(B, C) \land r44(A) \rightarrow r2(A, C)$
+r3	$\forall A, B, C: r45(A, B) \land r1(B, C) \land r43(A) \rightarrow r3(A, C)$
+r4	$\forall A, B: r1(A, B) \land r44(A) \rightarrow r4(A, B)$
+r5	$\forall A, B: r1(A, B) \land r43(A) \rightarrow r5(A, B)$
+r6	$\forall A, B, C: r1(A, B) \land r1(B, C) \land r44(A) \rightarrow r6(A, C)$
+r7	$\forall A, B, C: r1(A, B) \land r1(B, C) \land r43(A) \rightarrow r7(A, C)$
+r8	$\forall A, B, C, D: r1(A, B) \land r1(B, C) \land r1(C, D) \land r44(A) \rightarrow r8(A, D)$
+r9	$\forall A, B, C, D: r1(A, B) \land r1(B, C) \land r1(C, D) \land r43(A) \rightarrow r9(A, D)$
+r10	$\forall A, B, C, D: r45(A, B) \land r1(B, C) \land r1(C, D) \land r44(A) \rightarrow r10(A, D)$
+r11	$\forall A, B, C, D: r45(A, B) \land r1(B, C) \land r1(C, D) \land r43(A) \rightarrow r11(A, D)$
+r12	$\forall A, B, C, D, E: r45(A, B) \land r1(B, C) \land r1(C, D) \land r1(D, E) \land r44(A) \rightarrow r12(A, E)$
+r13	$\forall A, B, C, D, E: r45(A, B) \land r1(B, C) \land r1(C, D) \land r1(D, E) \land r43(A) \rightarrow r13(A, E)$
+r14	$\forall A, B, C, D, E, F: r45(A, B) \land r45(B, C) \land r1(C, D) \land r1(D, E) \land r1(E, F) \land r44(A) \rightarrow r14(A, F)$
+r15	$\forall A, B, C, D, E, F: r45(A, B) \land r45(B, C) \land r1(C, D) \land r1(D, E) \land r1(E, F) \land r43(A) \rightarrow r15(A, F)$
+r16	$\forall A, B, C, D, E: r45(A, B) \land r45(B, C) \land r1(C, D) \land r1(D, E) \land r44(A) \rightarrow r16(A, E)$
+r17	$\forall A, B, C, D, E: r45(A, B) \land r45(B, C) \land r1(C, D) \land r1(D, E) \land r43(A) \rightarrow r17(A, E)$
+r18	$\forall A, B, C, D, E, F, G: r45(A, B) \land r45(B, C) \land r45(C, D) \land r1(D, E) \land r1(E, F) \land r1(F, G) \land r44(A) \rightarrow r18(A, G)$
+r19	$\forall A, B, C, D, E, F, G: r45(A, B) \land r45(B, C) \land r45(C, D) \land r1(D, E) \land r1(E, F) \land r1(F, G) \land r43(A) \rightarrow r19(A, G)$
+r20	$\forall A, B, C, D, E, F: r45(A, B) \land r45(B, C) \land r45(C, D) \land r1(D, E) \land r1(E, F) \land r44(A) \rightarrow r20(A, F)$
+r21	$\forall A, B, C, D, E, F: r45(A, B) \land r45(B, C) \land r45(C, D) \land r1(D, E) \land r1(E, F) \land r43(A) \rightarrow r21(A, F)$
+r22	$\forall A, B: r45(A, B) \land r44(A) \rightarrow r22(A, B)$
+r23	$\forall A, B: r45(A, B) \land r43(A) \rightarrow r23(A, B)$
+r24	$\forall A, B, C: r45(A, B) \land r45(B, C) \land r44(A) \rightarrow r24(A, C)$
+r25	$\forall A, B, C: r45(A, B) \land r45(B, C) \land r43(A) \rightarrow r25(A, C)$
+r26	$\forall A, B, C, D: r45(A, B) \land r45(B, C) \land r45(C, D) \land r44(A) \rightarrow r26(A, D)$
+r27	$\forall A, B, C, D: r45(A, B) \land r45(B, C) \land r45(C, D) \land r43(A) \rightarrow r27(A, D)$
+r28	$\forall A, B, C, D: r45(A, B) \land r45(B, C) \land r1(C, D) \land r44(A) \rightarrow r28(A, D)$
+r29	$\forall A, B, C, D: r45(A, B) \land r45(B, C) \land r1(C, D) \land r43(A) \rightarrow r29(A, D)$

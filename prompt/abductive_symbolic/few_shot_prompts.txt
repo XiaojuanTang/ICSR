@@ -1,0 +1,44 @@
+Statement: $r4$(Laura, Felix)
+Answer: To prove the statement $r4$(Laura, Felix), we can use the following logical rule and facts:
+Logical Rule: L3: $\forall A, B: r1(A, B) \land r44(A) \rightarrow r4(A,B)$
+Facts:
+F2: $r1$(Laura,Felix)
+F37: $r44$(Laura)
+Using L3, F2 and F37, we can conclude that $r4$(Laura, Felix) holds.
+Therefore, the selected rule and facts are L3, F2, F37.
+
+Statement: $r3$(Samuel, Alina)
+Answer: To infer the statement $r3$(Samuel, Alina), we can use the logical rule L2: $\forall A, B, C: r1(B, A) \land r1(B, C) \land r43(A) \rightarrow r3(A,C)$, we can substitute A with Samuel and C with Alina: $\forall A, B, C: r1(B, Samuel) \land r1(B, Alina) \land r43(Samuel) \rightarrow r3(Samuel,Alina)$. Now, we need to find all facts that match the conditions $r1$(B, Samuel), $r1$(B, Alina) and $r43$(Samuel). We have:
+F27: $r1$(Patrick,Samuel)
+F32: $r1$(Emilia,Samuel)
+F33: $r1$(Emilia,Alina)
+F28: $r1$(Patrick,Alina)
+F47: $r43$(Samuel)
+Based on these facts, we can apply the logical rule L2 to infer $r3$(Samuel, Alina):
+$r1$(Patrick, Samuel) $\land$ $r1$(Patrick, Alina) $\land$ $r43$(Samuel) $\rightarrow$ $r3$(Samuel, Alina)
+$r1$(Emilia, Samuel) $\land$ $r1$(Emilia, Alina) $\land$ $r43$(Samuel) $\rightarrow$ $r3$(Samuel, Alina)
+Therefore, the selected rule and facts are L2, F27, F28, F47 or L2, F32, F33, F47.
+
+Statement: $r7$(Patrick, David)
+Answer: To explain the statement $r7$(Patrick, David), we can use the logical rule L6: $\forall A, B, C: r1(A, B) \land r1(B, C) \land r43(A) \rightarrow r7(A,C)$. We can substitute A with Patrick, B with Nico, and C with David: $\forall A, B, C: r1(Patrick, Nico) \land r1(Nico, David) \land r43(Patrick) \rightarrow r7(Patrick,David)$. Now, we need to find all facts that match the conditions $r1$(Patrick, Nico), $r1$(Nico, David) and $r43$(Patrick). We have:
+F28: $r1$(Patrick, Alina)
+F7: $r1$(Alina, David)
+F45: Patrick is $r43$.
+By applying L6 with these facts, we can infer that $r7$(Patrick, David) holds. Therefore, the selected rule and facts are L6, F28, F7, F45.
+
+Statement: $r22$(Amelie, Elena)
+Answer: To prove the statement $r22$(Amelie, Elena), we can use the following logical rule and facts:
+Logical Rule: L21: $\forall A, B: r1(B, A) \land r44(A) \rightarrow r22(A,B)$
+Facts:
+F20: $r1$(Elena,Amelie)
+F43: $r44$(Amelie)
+Using L21, F20 and F43, we can conclude that $r22$(Amelie, Elena) holds. Therefore, the selected rule and facts are L21, F20, F43.
+
+Statement: $r2$(Claudia, Felix)
+Answer: To prove the statement $r2$(Claudia, Felix), we can use the following logical rule and facts:
+Logical Rule: L1: $\forall A, B, C: r1(B, A) \land r1(B, C) \land r44(A) \rightarrow r2(A,C)$
+We can substitute A with Claudia, B with Laura, and C with Felix: $\forall A, B, C: r1(Laura, Claudia) \land r1(Laura, Felix) \land r44(Claudia) \rightarrow r2(Claudia,Felix)$. Now, we need to find all facts that match the conditions $r1$(Laura, Claudia), $r1$(Laura, Felix) and $r44$(Claudia). We have:
+F3: $r1$(Laura,Claudia)
+F2: $r1$(Laura,Felix)
+F40: $r44$(Claudia)
+By applying L1 with these facts, we can infer that $r2$(Claudia, Felix) holds. Therefore, the selected rule and facts are L1, F3, F2, F40.

@@ -1,0 +1,28 @@
+sister	If A is child of B and B is parent of C and A is female, then A is sister of C.
+brother	If A is child of B and B is parent of C and A is male, then A is brother of C.
+mother	If A is parent of B and A is female, then A is mother of B.
+father	If A is parent of B and A is male, then A is father of B.
+grandmother	If A is parent of B and B is parent of C and A is female, then A is grandmother of C.
+grandfather	If A is parent of B and B is parent of C and A is male, then A is grandfather of C.
+greatGrandmother	If A is parent of B and B is parent of C and C is parent of D and A is female, then A is greatGrandmother of D.
+greatGrandfather	If A is parent of B and B is parent of C and C is parent of D and A is male, then A is greatGrandfather of D.
+aunt	If A is child of B and B is parent of C and C is parent of D and A is female, then A is aunt of D.
+uncle	If A is child of B and B is parent of C and C is parent of D and A is male, then A is uncle of D.
+greatAunt	If A is child of B and B is parent of C and C is parent of D and D is parent of E and A is female, then A is greatAunt of E.
+greatUncle	If A is child of B and B is parent of C and C is parent of D and D is parent of E and A is male, then A is greatUncle of E.
+secondAunt	If A is child of B and B is child of C and C is parent of D and D is parent of E and E is parent of F and A is female, then A is secondAunt of F.
+secondUncle	If A is child of B and B is child of C and C is parent of D and D is parent of E and E is parent of F and A is male, then A is secondUncle of F.
+girlCousin	If A is child of B and B is child of C and C is parent of D and D is parent of E and A is female, then A is girlCousin of E.
+boyCousin	If A is child of B and B is child of C and C is parent of D and D is parent of E and A is male, then A is boyCousin of E.
+girlSecondCousin	If A is child of B and B is child of C and C is child of D and D is parent of E and E is parent of F and F is parent of G and A is female, then A is girlSecondCousin of G.
+boySecondCousin	If A is child of B and B is child of C and C is child of D and D is parent of E and E is parent of F and F is parent of G and A is male, then A is boySecondCousin of G.
+girlFirstCousinOnceRemoved	If A is child of B and B is child of C and C is child of D and D is parent of E and E is parent of F and A is female, then A is girlFirstCousinOnceRemoved of F.
+boyFirstCousinOnceRemoved	If A is child of B and B is child of C and C is child of D and D is parent of E and E is parent of F and A is male, then A is boyFirstCousinOnceRemoved of F.
+daughter	If A is child of B and A is female, then A is daughter of B.
+son	If A is child of B and A is male, then A is son of B.
+granddaughter	If A is child of B and B is child of C and A is female, then A is granddaughter of C.
+grandson	If A is child of B and B is child of C and A is male, then A is grandson of C.
+greatGranddaughter	If A is child of B and B is child of C and C is child of D and A is female, then A is greatGranddaughter of D.
+greatGrandson	If A is child of B and B is child of C and C is child of D and A is male, then A is greatGrandson of D.
+niece	If A is child of B and B is child of C and C is parent of D and A is female, then A is niece of D.
+nephew	If A is child of B and B is child of C and C is parent of D and A is male, then A is nephew of D.

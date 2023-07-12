@@ -1,0 +1,28 @@
+r4	$\forall A,B,C: r3(B, A) \land r3(B, C) \land r2(A) \rightarrow r4(A, C)$
+r5	$\forall A,B,C: r3(B, A) \land r3(B, C) \land r1(A) \rightarrow r5(A, C)$
+r6	$\forall A,B: r3(A, B) \land r2(A) \rightarrow r6(A, B)$
+r7	$\forall A,B: r3(A, B) \land r1(A) \rightarrow r7(A, B)$
+r8	$\forall A,B,C: r3(A, B) \land r3(B, C) \land r2(A) \rightarrow r8(A, C)$
+r9	$\forall A,B,C: r3(A, B) \land r3(B, C) \land r1(A) \rightarrow r9(A, C)$
+r10	$\forall A,B,C,D: r3(A, B) \land r3(B, C) \land r3(C, D) \land r2(A) \rightarrow r10(A, D)$
+r11	$\forall A,B,C,D: r3(A, B) \land r3(B, C) \land r3(C, D) \land r1(A) \rightarrow r11(A, D)$
+r12	$\forall A,B,C,D: r3(B, A) \land r3(B, C) \land r3(C, D) \land r2(A) \rightarrow r12(A, D)$
+r13	$\forall A,B,C,D: r3(B, A) \land r3(B, C) \land r3(C, D) \land r1(A) \rightarrow r13(A, D)$
+r14	$\forall A,B,C,D,E: r3(B, A) \land r3(B, C) \land r3(C, D) \land r3(D, E) \land r2(A) \rightarrow r14(A, E)$
+r15	$\forall A,B,C,D,E: r3(B, A) \land r3(B, C) \land r3(C, D) \land r3(D, E) \land r1(A) \rightarrow r15(A, E)$
+r16	$\forall A,B,C,D,E,F: r3(B, A) \land r3(C, B) \land r3(C, D) \land r3(D, E) \land r3(E, F) \land r2(A) \rightarrow r16(A, F)$
+r17	$\forall A,B,C,D,E,F: r3(B, A) \land r3(C, B) \land r3(C, D) \land r3(D, E) \land r3(E, F) \land r1(A) \rightarrow r17(A, F)$
+r18	$\forall A,B,C,D,E: r3(B, A) \land r3(C, B) \land r3(C, D) \land r3(D, E) \land r2(A) \rightarrow r18(A, E)$
+r19	$\forall A,B,C,D,E: r3(B, A) \land r3(C, B) \land r3(C, D) \land r3(D, E) \land r1(A) \rightarrow r19(A, E)$
+r20	$\forall A,B,C,D,E,F,G: r3(B, A) \land r3(C, B) \land r3(D, C) \land r3(D, E) \land r3(E, F) \land r3(F, G) \land r2(A) \rightarrow r20(A, G)$
+r21	$\forall A,B,C,D,E,F,G: r3(B, A) \land r3(C, B) \land r3(D, C) \land r3(D, E) \land r3(E, F) \land r3(F, G) \land r1(A) \rightarrow r21(A, G)$
+r22	$\forall A,B,C,D,E,F: r3(B, A) \land r3(C, B) \land r3(D, C) \land r3(D, E) \land r3(E, F) \land r2(A) \rightarrow r22(A, F)$
+r23	$\forall A,B,C,D,E,F: r3(B, A) \land r3(C, B) \land r3(D, C) \land r3(D, E) \land r3(E, F) \land r1(A) \rightarrow r23(A, F)$
+r24	$\forall A,B: r3(B, A) \land r2(A) \rightarrow r24(A, B)$
+r25	$\forall A,B: r3(B, A) \land r1(A) \rightarrow r25(A, B)$
+r26	$\forall A,B,C: r3(B, A) \land r3(C, B) \land r2(A) \rightarrow r26(A, C)$
+r27	$\forall A,B,C: r3(B, A) \land r3(C, B) \land r1(A) \rightarrow r27(A, C)$
+r28	$\forall A,B,C,D: r3(B, A) \land r3(C, B) \land r3(D, C) \land r2(A) \rightarrow r28(A, D)$
+r29	$\forall A,B,C,D: r3(B, A) \land r3(C, B) \land r3(D, C) \land r1(A) \rightarrow r29(A, D)$
+r30	$\forall A,B,C,D: r3(B, A) \land r3(C, B) \land r3(C, D) \land r2(A) \rightarrow r30(A, D)$
+r31	$\forall A,B,C,D: r3(B, A) \land r3(C, B) \land r3(C, D) \land r1(A) \rightarrow r31(A, D)$
